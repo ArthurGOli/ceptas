@@ -1,0 +1,246 @@
+/* CENTRALIZAR PAGINA */
+
+#centraliza {
+    width: 960px;
+    margin: 0px auto;
+}
+
+body {
+    margin:0;
+    padding:0;
+    background:#FFF;
+    
+    font: arial,tahoma,verdana;
+}
+
+/* MENU & CABEÇALHO*/
+
+#divMenu {
+    margin:0px;
+    text-align: center;
+}
+
+#divMenu ul {
+    font:16px arial,tahoma,verdana;
+    list-style:none;
+    margin:0;
+    padding:0;
+    display: flex;
+    width: 100%;
+}
+
+#divMenu ul li {
+    position:relative;
+    display:block;
+    width: 240px;
+    z-index: 1;
+}
+
+#menu {
+    text-transform: uppercase;
+}
+
+#subMenu{
+    text-transform: capitalize;
+}
+
+#divMenu ul li a {
+    color:#FFF;
+    background:#371963;
+    text-decoration:none;
+    margin:0 0px;
+    padding:15px 0px 15px 0px;
+    border-top:1px solid #FFF;
+    display:block;
+    width: 240px;
+}
+
+#divMenu li ul {
+    display:none;
+}
+
+#divMenu ul li a:hover {
+    background:#343c47;
+    /*background:#045184;*/
+    color:#fff;
+}
+
+#divMenu li:hover ul {
+    display:block;
+    position:absolute;
+}
+
+#divMenu li:hover li {
+    float:none;
+    font-size:12px;
+}
+
+#divMenu li:hover a {
+    background:#343c47;
+    /*background:#045184;*/
+    color:#fff;
+}
+
+#divMenu li:hover li a:hover {
+    /*background:#3BA9D7;*/
+    background:#6DBB4B;
+
+}
+
+#imgLogoUnimonte {
+    height: 100px;
+    position: absolute;
+    left: 0%;
+}
+
+#imgLogoCeptas {
+    position: absolute;
+    right: 0%;
+    height: 100px;
+}
+
+#cabecalho {
+    height: 100px;
+    margin: auto;
+    width: 100%;
+    position: relative;
+}
+
+#logoLogin {
+    height: 100px;
+    width: 100%;
+    position: relative;
+}
+
+
+/* LISTAS */
+
+.lista {
+    width: 100%;
+    /* azul color: #455479; */
+    color: #343c47;
+    font-family: Verdana;
+    border-collapse: collapse;
+}
+
+
+.lista th {
+    text-align: left;
+    font-size: 12px;
+    padding: 8px;
+    border-bottom: 3px solid #371963;
+}
+
+.lista td {
+    font-size: 12px;
+    padding: 8px;
+    /* azul border-bottom: 1px solid #045184; */
+    border-bottom: 1px solid #371963;
+}
+
+.lista tbody tr:hover {
+    /*background-color: #D2F0FF; */
+    background-color: #CDE8C1;
+}
+
+.imgApagar {
+    height: 35px;
+}
+
+.imgEditar {
+    height: 35px;
+}
+
+.botoes {
+    width: 10%;
+}
+/*telalogin*/
+
+#btnlogin{
+    position:absolute;
+    top:75%;
+    left:45%;
+    width: 10%;
+}
+#camposlogin{
+    position:absolute;
+    top:45%;
+    left:40%;    
+    padding: 2px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#textoLogin{
+    font-weight: bold;
+    color: #371963;
+    font: verdana;
+    text-align: center;
+    padding: 3px;
+}
+#imglogin1{
+    position: absolute;
+    height: 100px;
+    left:55%;
+    top:30%;
+
+}
+#imglogin2{
+    position: absolute;
+    height: 90px;
+    left:30%;
+    top:30%;
+
+}
+#faixalogin1{
+    background-color: #371963;
+    width: 960px;
+    height: 70px;
+    position: fixed;
+    top:0;
+}
+#pgRodape{
+    background-color: #6dbb4b;
+    height: 70px;
+    bottom: 0;
+    position:fixed;
+    width: 960px;
+}
+/*configuração pagina*/
+
+#corpo{
+    width: 960px;
+    color: #371963;
+    font:16px arial,tahoma,verdana;
+    
+     
+}
+#tituloCorpo{
+    text-align: center;
+    margin-top: 20px;
+}
+
+/*ALINHA FORMULARIO */
+
+#tdLabel{
+    text-align: right;
+}
+
+#formulario{
+    margin-left: auto;
+    margin-right: auto;   
+    margin-top: 20px;
+}
+#btnAcaoRodape{
+    height: 50px;
+    text-align: center;    
+}
+
+/* RELATORIO */
+
+#chart_div {
+    width: 960px;
+    heigh: 300px;
+    z-index: 0;
+}
+
