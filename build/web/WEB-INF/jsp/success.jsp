@@ -13,4 +13,5 @@
     <p>Login efetuado com sucesso.</p>
 
     <p>Bem vindo <bean:write name="LoginForm" property="usuario" /></p>
+    
 </body>

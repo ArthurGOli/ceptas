@@ -39,6 +39,13 @@
                 <img id="imglogin1" src="${pageContext.request.contextPath}/img/logoCeptas.png" alt=""/>
                 <img id="imglogin2" src="${pageContext.request.contextPath}/img/logoUnimonte.png" alt=""/>
                 <div id="camposlogin">
+                    <form action="mvc?logica=UsuarioLogica&acao=logar" onsubmit="return validarLogin(this)" method="post">
+                        <table id="formulario">
+                            <tr><td id="textoLogin">Seja bem-vindo</td></tr>
+                            <tr><td id="tdLabel">Login:<input type="text" name="usuarioLogin" id="usuarioLogin"/></td></tr>
+                            <tr> <td id="tdLabel">Senha:<input type="password" name="usuarioSenha" id="usuarioSenha"/></td></tr>
+                            <tr><td id="btnAcaoRodape" colspan="2"> <input type="submit" value="ENTRAR"/></td></tr>
+                        </table>
                     <html:form action="/login" onsubmit="return validarLogin(this)" method="post">
                         <table id="formulario">
                             <tr colspan="2">
@@ -57,8 +64,7 @@
                                 <td><html:text property="senha" /></td>
                             </tr>
                             <tr>
-                                <td id="btnAcaoRodape" colspan="2"> <input type="submit" value="ENTRAR"/></td>
-                                <td><html:submit value="Struts" /></td>
+                                <td><html:submit value="Login Struts" /></td>
                             </tr>
                         </table>
                     </html:form>
